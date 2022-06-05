@@ -1,0 +1,15 @@
+{
+  "botPrefix": "wir",
+  "schedulerTasks": [
+    { 
+      "functionName": "sendNewTraces", 
+      "timer": 45, 
+      "useTemp": true,
+      "otherParams": {
+        "tracesChannels": ["channelId1"],
+        "getOnlyAmount": 3,
+        "exceptionOnly": true
+      }
+    }
+  ]
+}
