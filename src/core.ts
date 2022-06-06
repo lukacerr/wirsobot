@@ -34,7 +34,7 @@ export const dataSource = new DataSource({
   migrationsRun: false,
   dropSchema: false,
   logging: false,
-  entities: [`${__dirname}/models/*.ts`, `${__dirname}/entity/*.js`],
+  entities: [`${__dirname}/models/*.ts`, `${__dirname}/models/*.js`],
   options: {
     readOnlyIntent: true,
   },
